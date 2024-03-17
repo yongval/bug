@@ -1,0 +1,17 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#image-container {
+    max-width: 100%; /* Ensures image container doesn't exceed viewport width */
+    height: auto; /* Allows the height to adjust proportionally to the width */
+    text-align: center; /* Centers the image */
+}
+#random-image {
+    max-width: 100%; /* Ensures image doesn't exceed container width */
+    height: auto; /* Allows the height to adjust proportionally to the width */
+}
